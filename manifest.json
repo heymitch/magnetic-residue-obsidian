@@ -1,0 +1,8 @@
+{
+  "name": "Magnetic Residue",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "author": "heymitch",
+  "authorUrl": "https://heymitch.ai",
+  "modes": ["dark", "light"]
+}
