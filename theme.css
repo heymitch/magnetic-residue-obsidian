@@ -1,7 +1,7 @@
 /* ============================================================
    Magnetic Residue — Obsidian Theme
    Warm analog aesthetic forked from Cassette Futurism
-   Dark: deep brown / cream / phosphor green
+   Dark: cool grey surfaces / cream text / phosphor green code
    Light: cream paper / brown ink / orange accents
    Palette: heymitch.ai brand tokens
    ============================================================ */
@@ -11,38 +11,38 @@
    ------------------------------------------------------------ */
 :root,
 .theme-dark {
-  /* Foundations — warm brown derived from #2D2118 */
-  --background-primary: #1c1612;
-  --background-primary-alt: #211a14;
-  --background-secondary: #1a1410;
-  --background-secondary-alt: #161210;
-  --background-modifier-border: #3a2c20;
-  --background-modifier-form-field: #1c1612;
-  --background-modifier-form-field-highlighted: #2a2018;
-  --background-modifier-box-shadow: rgba(22, 18, 16, 0.5);
+  /* Foundations — cool grey from Cassette Futurism */
+  --background-primary: #25292e;
+  --background-primary-alt: #1f2327;
+  --background-secondary: #1f2327;
+  --background-secondary-alt: #1a1d21;
+  --background-modifier-border: #3a3f45;
+  --background-modifier-form-field: #25292e;
+  --background-modifier-form-field-highlighted: #2d3238;
+  --background-modifier-box-shadow: rgba(26, 29, 33, 0.5);
   --background-modifier-success: #5B8C5A;
   --background-modifier-error: #cc4422;
   --background-modifier-error-rgb: 204, 68, 34;
   --background-modifier-error-hover: #cc4422;
-  --background-modifier-cover: rgba(22, 18, 16, 0.85);
+  --background-modifier-cover: rgba(26, 29, 33, 0.8);
 
   /* Text — cream spectrum from #F0E4D0 */
   --text-normal: #E8DCC8;
   --text-muted: #c8b89c;
   --text-faint: #9a8a70;
-  --text-on-accent: #161210;
+  --text-on-accent: #1a1d21;
   --text-on-accent-inverted: #E8DCC8;
   --text-error: #cc4422;
   --text-error-hover: #cc4422;
   --text-success: #5B8C5A;
-  --text-selection: #3a2c20;
-  --text-highlight-bg: #3a2c20;
-  --text-highlight-bg-active: #4A3A2A;
+  --text-selection: #3a4a5a;
+  --text-highlight-bg: #3a4a5a;
+  --text-highlight-bg-active: #4a5a6a;
   --text-accent: #E8682A;
 
   /* Interactive — heymitch orange */
-  --interactive-normal: #3a2c20;
-  --interactive-hover: #4A3A2A;
+  --interactive-normal: #3a3f45;
+  --interactive-hover: #4a5560;
   --interactive-accent: #E8682A;
   --interactive-accent-hover: #d45a1e;
   --interactive-accent-rgb: 232, 104, 42;
@@ -75,17 +75,17 @@
   --list-marker-color: #E8682A;
   --checkbox-color: #E8682A;
   --checkbox-color-hover: #d45a1e;
-  --checkbox-border-color: #3a2c20;
+  --checkbox-border-color: #3a3f45;
   --checklist-done-color: #9a8a70;
 
   /* Indentation guides */
-  --indentation-guide-color: #3a2c2040;
-  --indentation-guide-color-active: #3a2c20;
+  --indentation-guide-color: #3a3f4540;
+  --indentation-guide-color-active: #3a3f45;
 
   /* Scrollbar */
   --scrollbar-bg: transparent;
-  --scrollbar-thumb-bg: rgba(200, 160, 96, 0.25);
-  --scrollbar-active-thumb-bg: rgba(232, 104, 42, 0.35);
+  --scrollbar-thumb-bg: #4a556080;
+  --scrollbar-active-thumb-bg: #5a6570;
 
   /* Inputs */
   --input-shadow: none;
@@ -96,12 +96,12 @@
   --tab-text-color-focused: #E8682A;
   --tab-text-color-focused-active: #E8682A;
   --tab-text-color-focused-active-current: #E8682A;
-  --tab-background-active: #211a14;
+  --tab-background-active: #2d3238;
   --tab-outline-color: #E8682A;
 
   /* Titlebar */
-  --titlebar-background: #161210;
-  --titlebar-background-focused: #161210;
+  --titlebar-background: #1a1d21;
+  --titlebar-background-focused: #1a1d21;
   --titlebar-text-color: #E8DCC8;
   --titlebar-text-color-focused: #E8DCC8;
 
@@ -111,7 +111,7 @@
   --nav-item-color-active: #E8682A;
   --nav-item-color-selected: #E8682A;
   --nav-item-color-highlighted: #E8682A;
-  --nav-item-background-hover: #211a14;
+  --nav-item-background-hover: #2d3238;
   --nav-item-background-active: rgba(232, 104, 42, 0.12);
   --nav-item-background-selected: rgba(232, 104, 42, 0.12);
 
@@ -120,12 +120,12 @@
   --toggle-border-width: 1px;
 
   /* Blockquotes */
-  --blockquote-border-color: #3a2c20;
-  --blockquote-background-color: #1a1410;
+  --blockquote-border-color: #3a3f45;
+  --blockquote-background-color: #1f2327;
 
   /* Code — phosphor green terminal */
   --code-normal: #82c896;
-  --code-background: #12100e;
+  --code-background: #1f2327;
   --code-white-space: pre-wrap;
   --code-size: 0.9em;
 
@@ -162,7 +162,7 @@
   --italic-color: #a87cb8;
 
   /* Graph view */
-  --graph-line: #3a2c20;
+  --graph-line: #3a3f45;
   --graph-node: #E8DCC8;
   --graph-node-focused: #E8682A;
   --graph-node-tag: #a87cb8;
@@ -170,7 +170,7 @@
   --graph-node-unresolved: #9a8a70;
 
   /* Prompt / modals */
-  --prompt-border-color: #3a2c20;
+  --prompt-border-color: #3a3f45;
 
   /* Icons */
   --icon-color: #c8b89c;
@@ -179,13 +179,13 @@
   --icon-color-focused: #E8682A;
 
   /* Dividers */
-  --hr-color: #3a2c20;
+  --hr-color: #3a3f45;
 
   /* Table */
-  --table-header-background: #1a1410;
-  --table-header-background-hover: #211a14;
-  --table-row-background-hover: #211a1440;
-  --table-border-color: #3a2c20;
+  --table-header-background: #1f2327;
+  --table-header-background-hover: #2d3238;
+  --table-row-background-hover: #2d323840;
+  --table-border-color: #3a3f45;
 }
 
 /* ------------------------------------------------------------
@@ -528,15 +528,15 @@ input[type="checkbox"]:checked {
 .theme-dark .markdown-preview-view pre,
 .theme-dark .markdown-rendered pre,
 .theme-dark .cm-s-obsidian .HyperMD-codeblock {
-  background-color: #12100e;
-  border: 1px solid #2a2218;
+  background-color: #1a1d21;
+  border: 1px solid #3a3f45;
 }
 
 /* Kill line separators between codeblock lines */
 .theme-dark .cm-s-obsidian .HyperMD-codeblock-bg,
 .theme-dark .cm-s-obsidian .HyperMD-codeblock-begin,
 .theme-dark .cm-s-obsidian .HyperMD-codeblock-end {
-  background-color: #12100e;
+  background-color: #1a1d21;
   border-top: none;
   border-bottom: none;
   box-shadow: none;
